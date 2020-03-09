@@ -1,0 +1,91 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/71525fe/
+0	tsconfig.json	/^        "src\/*"$/;"	s	array:compilerOptions.paths.@/*
+0	tsconfig.json	/^      "esnext",$/;"	s	array:compilerOptions.lib
+0	tsconfig.json	/^      "webpack-env",$/;"	s	array:compilerOptions.types
+0	tsconfig.json	/^    "node_modules"$/;"	s	array:exclude
+0	tsconfig.json	/^    "src\/**\/*.ts",$/;"	s	array:include
+1	tsconfig.json	/^      "dom",$/;"	s	array:compilerOptions.lib
+1	tsconfig.json	/^      "jest"$/;"	s	array:compilerOptions.types
+1	tsconfig.json	/^    "src\/**\/*.tsx",$/;"	s	array:include
+2	tsconfig.json	/^      "dom.iterable",$/;"	s	array:compilerOptions.lib
+2	tsconfig.json	/^    "src\/**\/*.vue",$/;"	s	array:include
+3	tsconfig.json	/^      "scripthost"$/;"	s	array:compilerOptions.lib
+3	tsconfig.json	/^    "tests\/**\/*.ts",$/;"	s	array:include
+4	tsconfig.json	/^    "tests\/**\/*.tsx"$/;"	s	array:include
+@/*	tsconfig.json	/^      "@\/*": [$/;"	a	object:compilerOptions.paths
+@types/jest	package.json	/^    "@types\/jest": "^24.0.19",$/;"	s	object:devDependencies
+@typescript-eslint/eslint-plugin	package.json	/^    "@typescript-eslint\/eslint-plugin": "^2.18.0",$/;"	s	object:devDependencies
+@typescript-eslint/parser	package.json	/^    "@typescript-eslint\/parser": "^2.18.0",$/;"	s	object:devDependencies
+@vue/cli-plugin-babel	package.json	/^    "@vue\/cli-plugin-babel": "~4.2.0",$/;"	s	object:devDependencies
+@vue/cli-plugin-eslint	package.json	/^    "@vue\/cli-plugin-eslint": "~4.2.0",$/;"	s	object:devDependencies
+@vue/cli-plugin-typescript	package.json	/^    "@vue\/cli-plugin-typescript": "~4.2.0",$/;"	s	object:devDependencies
+@vue/cli-plugin-unit-jest	package.json	/^    "@vue\/cli-plugin-unit-jest": "~4.2.0",$/;"	s	object:devDependencies
+@vue/cli-service	package.json	/^    "@vue\/cli-service": "~4.2.0",$/;"	s	object:devDependencies
+@vue/eslint-config-prettier	package.json	/^    "@vue\/eslint-config-prettier": "^6.0.0",$/;"	s	object:devDependencies
+@vue/eslint-config-typescript	package.json	/^    "@vue\/eslint-config-typescript": "^5.0.1",$/;"	s	object:devDependencies
+@vue/test-utils	package.json	/^    "@vue\/test-utils": "1.0.0-beta.31",$/;"	s	object:devDependencies
+Compiles and hot-reloads for development	README.md	/^### Compiles and hot-reloads for development$/;"	S
+Compiles and minifies for production	README.md	/^### Compiles and minifies for production$/;"	S
+Customize configuration	README.md	/^### Customize configuration$/;"	S
+Element	src/shims-tsx.d.ts	/^    interface Element extends VNode {}$/;"	i	namespace:JSX
+ElementClass	src/shims-tsx.d.ts	/^    interface ElementClass extends Vue {}$/;"	i	namespace:JSX
+IntrinsicElements	src/shims-tsx.d.ts	/^    interface IntrinsicElements {$/;"	i	namespace:JSX
+JSX	src/shims-tsx.d.ts	/^  namespace JSX {$/;"	n
+Lints and fixes files	README.md	/^### Lints and fixes files$/;"	S
+Project setup	README.md	/^## Project setup$/;"	s
+Run your unit tests	README.md	/^### Run your unit tests$/;"	S
+allowSyntheticDefaultImports	tsconfig.json	/^    "allowSyntheticDefaultImports": true,$/;"	b	object:compilerOptions
+app	public/index.html	/^    <div id="app"><\/div>$/;"	I
+baseUrl	tsconfig.json	/^    "baseUrl": ".",$/;"	s	object:compilerOptions
+build	package.json	/^    "build": "vue-cli-service build",$/;"	s	object:scripts
+compilerOptions	tsconfig.json	/^  "compilerOptions": {$/;"	o
+core-js	package.json	/^    "core-js": "^3.6.4",$/;"	s	object:dependencies
+dependencies	package.json	/^  "dependencies": {$/;"	o
+devDependencies	package.json	/^  "devDependencies": {$/;"	o
+env	.eslintrc.js	/^  env: {$/;"	c	class:module.exports
+esModuleInterop	tsconfig.json	/^    "esModuleInterop": true,$/;"	b	object:compilerOptions
+eslint	package.json	/^    "eslint": "^6.7.2",$/;"	s	object:devDependencies
+eslint-plugin-prettier	package.json	/^    "eslint-plugin-prettier": "^3.1.1",$/;"	s	object:devDependencies
+eslint-plugin-vue	package.json	/^    "eslint-plugin-vue": "^6.1.2",$/;"	s	object:devDependencies
+exclude	tsconfig.json	/^  "exclude": [$/;"	a
+exports	.eslintrc.js	/^module.exports = {$/;"	c	class:module
+exports	babel.config.js	/^module.exports = {$/;"	c	class:module
+exports	jest.config.js	/^module.exports = {$/;"	c	class:module
+importHelpers	tsconfig.json	/^    "importHelpers": true,$/;"	b	object:compilerOptions
+include	tsconfig.json	/^  "include": [$/;"	a
+jsx	tsconfig.json	/^    "jsx": "preserve",$/;"	s	object:compilerOptions
+lib	tsconfig.json	/^    "lib": [$/;"	a	object:compilerOptions
+lint	package.json	/^    "lint": "vue-cli-service lint"$/;"	s	object:scripts
+module	tsconfig.json	/^    "module": "esnext",$/;"	s	object:compilerOptions
+moduleResolution	tsconfig.json	/^    "moduleResolution": "node",$/;"	s	object:compilerOptions
+msg	tests/unit/example.spec.ts	/^    const msg = "new message";$/;"	C
+name	package.json	/^  "name": "vue-cv",$/;"	s
+node	.eslintrc.js	/^    node: true$/;"	p	class:module.exports.env
+paths	tsconfig.json	/^    "paths": {$/;"	o	object:compilerOptions
+preset	jest.config.js	/^  preset: "@vue\/cli-plugin-unit-jest\/presets\/typescript-and-babel"$/;"	p	class:module.exports
+presets	babel.config.js	/^  presets: ["@vue\/cli-plugin-babel\/preset"]$/;"	p	class:module.exports
+prettier	package.json	/^    "prettier": "^1.19.1",$/;"	s	object:devDependencies
+prettier.eslintIntegration	.vim/coc-settings.json	/^	"prettier.eslintIntegration": true,$/;"	b
+private	package.json	/^  "private": true,$/;"	b
+root	.eslintrc.js	/^  root: true,$/;"	p	class:module.exports
+scripts	package.json	/^  "scripts": {$/;"	o
+serve	package.json	/^    "serve": "vue-cli-service serve",$/;"	s	object:scripts
+sourceMap	tsconfig.json	/^    "sourceMap": true,$/;"	b	object:compilerOptions
+strict	tsconfig.json	/^    "strict": true,$/;"	b	object:compilerOptions
+target	tsconfig.json	/^    "target": "esnext",$/;"	s	object:compilerOptions
+test:unit	package.json	/^    "test:unit": "vue-cli-service test:unit",$/;"	s	object:scripts
+types	tsconfig.json	/^    "types": [$/;"	a	object:compilerOptions
+typescript	package.json	/^    "typescript": "~3.7.5",$/;"	s	object:devDependencies
+version	package.json	/^  "version": "0.1.0",$/;"	s
+vetur.format.defaultFormatter.js	.vim/coc-settings.json	/^	"vetur.format.defaultFormatter.js": "prettier-eslint",$/;"	s
+vetur.format.enable	.vim/coc-settings.json	/^	"vetur.format.enable": false$/;"	b
+vue	package.json	/^    "vue": "^2.6.11"$/;"	s	object:dependencies
+vue-cv	README.md	/^# vue-cv$/;"	c
+vue-template-compiler	package.json	/^    "vue-template-compiler": "^2.6.11"$/;"	s	object:devDependencies
+wrapper	tests/unit/example.spec.ts	/^    const wrapper = shallowMount(HelloWorld, {$/;"	C
